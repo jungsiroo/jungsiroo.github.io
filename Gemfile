@@ -24,7 +24,7 @@ gem "jekyll-theme-hydejack", "~> 9.0"
 #    For details, see <https://github.com/kramdown/math-katex#documentation>
 #
 # If you're using the MathJax math engine instead, free to remove the line below:
-#gem "kramdown-math-katex"
+gem "kramdown-math-katex"
 
 group :jekyll_plugins do
   gem "jekyll-default-layout", git: "https://github.com/benbalter/jekyll-default-layout"
@@ -42,6 +42,7 @@ group :jekyll_plugins do
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
+  gem "kramdown-parser-gfm"
 end
 
 gem 'wdm' if Gem.win_platform?
