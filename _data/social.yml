@@ -2,7 +2,7 @@
 email:
   name: Email
   icon: icon-mail
-  prepend: 'mailto:'
+  prepend: 'sh2298@naver.com'
 amazon:
   name: Amazon
   icon: icon-amazon
