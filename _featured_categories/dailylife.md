@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Algorithm
+title: Daily Life
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: algorithm
+slug: dailylife
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  알고리즘 테스트
+  일상
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
