@@ -3,7 +3,7 @@
 ![alpha-src][logo-white]
 ![alpha-src][logo-black]
 
-***Apply Neat, Clean Theme for my github page***
+***Apply Neat, Clean Theme to my github page***
 
 * [*My Github Page*](https://alpha-src.github.io)
 * [*Markdown Editor*](https://stackedit.io/app#)
