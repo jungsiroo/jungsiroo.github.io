@@ -10,4 +10,4 @@
 
 ***Thanks for visiting my blog.***
 
-[logo]: https://raw.githubusercontent.com/alpha-src/private-pic/master/logo-white.png?token=AM6ZANC5AKMKEYGSP577NHK74V5SU
+[logo]: https://raw.githubusercontent.com/alpha-src/private-pic/master/logo-white.png?token=AM6ZANH4JXYITFL67JLJJHS74V6IQ
