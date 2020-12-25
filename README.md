@@ -1,6 +1,7 @@
-#  Welcome to alpha-src's Github Page
+# Welcome to alpha-src's Github Page
 
 ![alpha-src][logo]
+
 ***Apply Neat, Clean Theme for my github page***
 
 * [*My Github Page*](https://alpha-src.github.io)
