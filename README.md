@@ -1,6 +1,7 @@
 # Welcome to alpha-src's Github Page
 
-![alpha-src][logo]
+![alpha-src][logo-white]
+![alpha-src][logo-black]
 
 ***Apply Neat, Clean Theme for my github page***
 
@@ -10,4 +11,5 @@
 
 ***Thanks for visiting my blog.***
 
-[logo]: https://raw.githubusercontent.com/alpha-src/private-pic/master/logo-white.png?token=AM6ZANH4JXYITFL67JLJJHS74V6IQ
+[logo-white]: ./assets/img/blog/logo-white.png
+[logo-black]: ./assets/img/blog/logo-black.png
