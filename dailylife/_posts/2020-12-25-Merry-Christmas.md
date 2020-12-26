@@ -6,7 +6,6 @@ description: >
 hide_description: true
 sitemap: false
 ---
-
 처음으로 군대에서 맞이하는 크리스마스...
 
 ## 예상과 달리 별거 없는 크리스마스

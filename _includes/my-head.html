@@ -2,6 +2,11 @@
 Code used for embedding Gumroad on the Hydejack Site. 
 Left here for reference, feel free to delete.
 -->
+{% if page.applause_button %}
+  <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+  <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+{% endif %}
+
 <link rel="dns-prefetch" href="https://assets.gumroad.com">
 <script type="module">
   let p;
