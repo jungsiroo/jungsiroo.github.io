@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name:              Sihyun Jung
-  email:             sh2298@naver.com
+  email:             fordevelop@pm.me
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -21,6 +21,9 @@ author1:
     srcset:
       1x:            ../assets/img/blog/about.jpg
       2x:            ../assets/img/blog/about.jpg
+    sizes :
+      max-height : 500px
+      max-width : 500px
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
@@ -28,7 +31,7 @@ author1:
   social:
     instagram:       sihyun.from.99
     github:          alpha-src
-    # email:           <mail@domain.tld>
+    email:           fordevelop@pm.me
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

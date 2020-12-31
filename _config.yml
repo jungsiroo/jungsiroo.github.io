@@ -42,7 +42,7 @@ logo:                  /assets/img/blog/logo-white.png
 author:
   # Used by `jekyll-feed`:
   name:                Sihyun Jung
-  email:               sh2298@naver.com
+  email:               fordevelop@pm.me
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -154,7 +154,7 @@ defaults:
   - scope:
       type:            posts
     values:
-      comments:        true
+      comments:        false
       # https://applause-button.com/
       applause_button:       true
   
@@ -328,6 +328,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-avatar
 
 
 # SEO Tag

@@ -6,3 +6,12 @@ description: >
   Check out the `blog` layout for comparison.
 grouped: true
 ---
+
+{% if page.applause_button %}
+  <applause-button
+    color={{ site.accent_color | default:'rgb(79,177,186)' }}
+    url={{ site.url }}{{ page.url }} >
+  </applause-button>
+{% else %}
+  <hr class="dingbat related" />
+{% endif %}

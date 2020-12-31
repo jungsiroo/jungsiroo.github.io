@@ -49,6 +49,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-avatar (0.7.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-compose (0.12.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-feed (0.15.1)
@@ -111,6 +113,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.9.0)
+  jekyll-avatar
   jekyll-compose
   jekyll-default-layout!
   jekyll-feed
