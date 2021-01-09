@@ -21,8 +21,6 @@ sitemap: false
 
 ## [Stack/Queue]{:.heading.flip-title} - 스택/큐
 
-## [Heap]{:.heading.flip-title} - 힙
-
 ## [Sorting]{:.heading.flip-title} - 정렬
 
 ## [Brute Force]{:.heading.flip-title} - 완전 탐색
@@ -39,7 +37,6 @@ sitemap: false
 
 [Hash]: hash/
 [Stack/Queue]: stackqueue/
-[Heap]: heap/
 [Sorting]: sorting/
 [Brute Force]: bruteforce/
 [Greedy]: greedy/
