@@ -15,6 +15,6 @@ sitemap: false
 
 * ## [2798번 한수 문제]
 
-[1065번 한수 문제] :  ../../../algorithm/2021-01-02-hansu
+[1065번 한수 문제]: ../../../algorithm/2021-01-02-hansu
 
-[2798번 한수 문제] : ../../../algorithm/2021-01-10-blackjack
+[2798번 한수 문제]: ../../../algorithm/2021-01-10-blackjack
