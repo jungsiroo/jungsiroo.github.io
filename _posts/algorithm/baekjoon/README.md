@@ -4,7 +4,6 @@ title: 백준 문제 모음
 description: >
   백준에서 푼 문제들 모음
 hide_description: true
-sitemap: false
 ---
 각 알고리즘별로 분류해 포스팅합니다. 백준의 문제들은 C++를 이용하여 해결합니다.
 

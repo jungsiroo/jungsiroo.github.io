@@ -4,7 +4,6 @@ title: 군대에서 React-Native 개발하기
 description: >
   React-Native-Cli
 hide_description: true
-sitemap: false
 category: devlife
 image:
   path: https://miro.medium.com/max/1000/1*ub1DguhAtkCLvhUGuVGr6w.png

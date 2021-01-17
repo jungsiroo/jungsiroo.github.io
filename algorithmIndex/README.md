@@ -4,7 +4,6 @@ title: Algorithm
 description: >
   알고리즘 문제, 알고리즘에 대해 배운 점을 기술합니다.
 hide_description: true
-sitemap: false
 ---
 *저의 문제 풀이 방식은 최적의 해가 아닐 수도 있습니다.*<br>
 *제가 푼 모든 문제들은 <strong>[AlgorithmTest](https://github.com/alpha-src/AlgorithmTest){:target="_blank"}</strong>에 등록해두었습니다.*

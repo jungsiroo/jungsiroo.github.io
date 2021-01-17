@@ -4,7 +4,6 @@ title: Brute Force
 description: >
   HackerRank에서 푼 완전탐색 문제들 모음
 hide_description: true
-sitemap: false
 ---
 HackerRank 완전탐색 관련 문제들입니다.
 
