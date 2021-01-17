@@ -160,6 +160,7 @@ defaults:
       comments:        true
       # https://applause-button.com/
       applause_button:       true
+      sitemap:         true
   
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
