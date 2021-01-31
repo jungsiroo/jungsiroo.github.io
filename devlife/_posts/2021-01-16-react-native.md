@@ -9,7 +9,7 @@ image:
   path: https://miro.medium.com/max/1000/1*ub1DguhAtkCLvhUGuVGr6w.png
 ---
 
-React-Native를 군대에서... (최동호 병장(진)님, 이현수 상병님, 조재상 상병님 사랑합니다💖)
+React-Native를 군대에서... (최동호 병장(진)님, 이현수 상병님, 조재상 상병님, 하우람 상병님 사랑합니다💖)
 {:.figcaption}
 
 ## React-Native 를 Emulator 없이?
