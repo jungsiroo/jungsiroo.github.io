@@ -13,9 +13,11 @@ image:
 ***본 문제는 C++17을 이용하여 해결하였다.***
 {:.note}
 
-간단한 완전탐색 문제이다. 같이 한번 보자. 
+간단한 완전탐색 문제이다. 같이 한번 보자.
 
-0. 
+1. this ordered seed list will be replaced by the toc
+{:toc}
+
 {:toc}
 
 ## 문제
