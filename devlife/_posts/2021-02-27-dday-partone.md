@@ -27,7 +27,7 @@ Dday-Notifier
 {:.figcaption}
 
 그림을 보시다시피 **_AppStack_** 과 **_AuthStack_** 이 중요한 역할을 한다. 만약 유저가 유효하다면 **_AppStack_** 이 로딩되고 아니라면 **_AuthStack_** 이 로딩된다.
-오늘 포스팅에서는 **_AuthStack_** 에 관해 다루겠다.
+추후 포스팅에서는 **_AuthStack_** 에 관해 먼저 다루겠다.
 
 ## React-Native와 Firebase
 
