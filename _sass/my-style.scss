@@ -22,3 +22,30 @@ applause-button {
     color: inherit;
   }
 }
+
+.top-menu-wrapper{
+  display: inline-block;
+}
+
+.nav-btn, .nav-btn-bar{
+  height: 3rem;
+}
+.top-menu{
+  overflow-x: auto;
+  // overflow-y: hidden;
+  white-space: nowrap;
+}
+.top-menu.nav-btn{
+  border: none;
+  display: inline-flex;
+  width: 6rem;
+  margin-left: -1px;
+}
+.nav-btn:hover,.nav-btn:focus{
+  color: grey;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.nav-span{
+  flex: none;
+}

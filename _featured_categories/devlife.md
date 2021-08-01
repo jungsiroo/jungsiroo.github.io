@@ -10,7 +10,7 @@ slug: devlife
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  개발자 대학생의 개발 관련 일상
+  개발 일지
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

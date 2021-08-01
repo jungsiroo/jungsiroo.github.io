@@ -10,7 +10,7 @@ slug: algorithm
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-    개발자 대학생의 알고리즘 분석
+    알고리즘 분석
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

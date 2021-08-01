@@ -20,18 +20,18 @@ url:                   https://alpha-src.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 코딩덕후 Alpha
+title:                 𝓳𝓾𝔁𝓰𝓼𝓲𝓻𝓸𝓸
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Welcome to My Github Page
+  Welcome to My Github Blog
 
 # A shorter description for the sidebar.
-tagline:               Developer's Life
+tagline:               𝒢𝓇𝒾𝓃𝒹 𝒽𝒶𝓇𝒹, 𝒮𝒽𝒾𝓃𝑒 𝒽𝒶𝓇𝒹
 
 # A list of keywords for your blog
-keywords:              [developer, college, computerscience]
+keywords:              [developer, college, computerscience, 개발자, 개발, 컴공과, 프론트엔드, 백엔드]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
