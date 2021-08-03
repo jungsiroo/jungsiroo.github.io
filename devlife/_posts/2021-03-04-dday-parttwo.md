@@ -16,7 +16,7 @@ image:
 <br><br>
 
 오늘은 **_AuthStack_** 에 대해 알아보자. **_AuthStack_** 은 **_AuthProvider_** 에 둘러싸여 있는 **StackNavigator** 이다.
-따라서 차근차근 **_AuthProvider_** 와 **_AuthStack_** 을 파해쳐 볼 것이다. 
+따라서 차근차근 **_AuthProvider_** 와 **_AuthStack_** 을 파해쳐 볼 것이다.
 
 * 
 {:toc}

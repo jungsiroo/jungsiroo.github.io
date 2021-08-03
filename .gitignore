@@ -49,8 +49,3 @@ _zip
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
-
-connect-server.txt
-
-docs/
-example/
