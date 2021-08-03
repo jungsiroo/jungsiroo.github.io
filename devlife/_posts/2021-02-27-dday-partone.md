@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React-Native 로 디데이 앱 만들기 - 1 (초기세팅)
+title: React-Native로 디데이 앱 만들기<br>Part.1 (초기세팅)
 description: >
   React-Native
 hide_description: true

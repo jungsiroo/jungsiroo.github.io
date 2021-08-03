@@ -17,6 +17,8 @@
 layout: base
 ---
 
+<!-- <a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a> -->
+
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
 {% if page.applause_button %}
@@ -41,6 +43,3 @@ layout: base
   {% else %}
   {% endcase %}
 {% endfor %}
-
-<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
-<button id="theme-toggle">Button</button>
