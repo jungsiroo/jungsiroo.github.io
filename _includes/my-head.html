@@ -29,6 +29,14 @@ Left here for reference, feel free to delete.
 <meta property=”og:url” content=”https://alpha-src.github.io"/> 
 <meta property=”og:site_name” content=”Blog”/> 
 <meta property=”og:type” content=”website”/>
+<script>
+  var check = $("input[type='checkbox']");
+  check.click(function(){
+    document.getElementById("switchTxt").innerHTML = "ON";
+    $("p").toggle();
+  });
+</script>
+
 <script type="module">
   let p;
   const promisify = f => x => new Promise(r => f(x).addEventListener('load', r));

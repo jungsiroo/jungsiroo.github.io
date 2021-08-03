@@ -1,6 +1,9 @@
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
 
+const isUserColorTheme = localStorage.getItem('color-theme');
+const isOsColorTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
 if (systemInitiatedDark.matches) {
 	document.getElementById("theme-toggle").innerHTML = "Light Mode";
 } else {
