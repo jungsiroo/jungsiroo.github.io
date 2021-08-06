@@ -3,8 +3,6 @@
   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 }
 
-/* =Variables
------------------------------------------------------------------------------ */
 $dark-blue: #204056;
 
 .hr-bottom {
@@ -48,13 +46,25 @@ body {
   padding: 1em;
 }
 
-a {
-  color: var(--main-text-color);
+#_navbar {
+  background-color: var(--main-background-color);
+}
+
+.nav-btn-bar {
+  background-color: var(--main-background-color);
 }
 
 article {
   max-width: 650px;
   margin: 2em auto;
+}
+
+.flip-title {
+  color: var(--main-text-color);
+}
+
+th {
+  color: var(--main-text-color);
 }
 
 h1 {
@@ -70,72 +80,74 @@ p {
   font-size: 1.25rem;
 }
 
-/* The switch - the box around the slider */
-.theme-button {
+main > article > p > em > a {
+  color: var(--main-text-color) !important;
+}
+
+main > article > p > strong > em > a {
+  color: var(--main-text-color) !important;
+}
+
+.external {
+  color: var(--main-text-color) !important;
+}
+
+.note-sm {
+  color: var(--main-text-color);
+}
+
+.switch-button {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 55px;
   height: 30px;
-  vertical-align: 'center';
+  border-color: hsl(0, 0%, 40%);
+  border-radius: 20px;
+  border-width: 1px;
 }
-
-/* Hide default HTML checkbox */
-.switch input {
-  display: none;
+.switch-button input {
   opacity: 0;
+  width: 0;
+  height: 0;
 }
-
-/* The slider */
-.slider {
+.onoff-switch {
   position: absolute;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
   -webkit-transition: 0.4s;
+  box-shadow: inset 1px 5px 1px #e3ae56;
   transition: 0.4s;
 }
-
-.slider:before {
+.onoff-switch:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 22px;
+  width: 22px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  background-image: url("/assets/img/sun.png");
+  background-size: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+
   transition: 0.4s;
+  border-radius: 20px;
 }
-
-input:checked + .slider {
-  background-color: #2196f3;
+.switch-button input:checked + .onoff-switch {
+  background-color: #222222;
+  box-shadow: inset 1px 5px 1px #6e6e6e;
 }
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
+.switch-button input:checked + .onoff-switch:before {
+  background-image: url("/assets/img/moon.png");
   -webkit-transform: translateX(26px);
+  background-color: #333;
   -ms-transform: translateX(26px);
   transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-p {
-  margin: 0px;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
 }
