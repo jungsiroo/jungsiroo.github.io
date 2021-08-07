@@ -16,7 +16,7 @@ html[data-theme="light"] {
   --main-background-color: #fff;
   --main-text-color: hsl(0, 0%, 20%);
   --border-color: #fff;
-  --highlight-color: #abb2bf;
+  --highlight-color: #727272;
   --menu-text-color: rgb(71, 71, 71);
   --highlight-bg: rgba(255, 255, 255, 0.033);
 }
@@ -26,9 +26,9 @@ html[data-theme="dark"] {
   --main-background-color: hsl(0, 0%, 20%);
   --main-text-color: hsl(0, 0%, 85%);
   --border-color: #343c3f;
-  --highlight-color: #abb2bf;
   --menu-text-color: #bbb;
-  --highlight-bg: #2f3637;
+  --highlight-bg: #383a38;
+  --code-text: #abb2bf;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,7 +38,8 @@ html[data-theme="dark"] {
     --main-background-color: hsl(0, 0%, 20%);
     --main-text-color: hsl(0, 0%, 85%);
     --border-color: hsl(0, 0%, 70%);
-    --highlight-bg: #2f3637;
+    --highlight-bg: #383a38;
+    --code-text: #abb2bf;
   }
 
   html[data-theme="light"] {
@@ -193,4 +194,20 @@ pre {
   background-color: var(--highlight-bg);
   border-top-right-radius: 0.5rem !important;
   border-bottom-right-radius: 0.5rem !important;
+}
+
+.p,
+.nf,
+.n,
+.ow,
+.o {
+  color: var(--code-text) !important;
+}
+
+.c1 {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+blockquote {
+  color: rgb(150, 150, 150) !important;
 }
