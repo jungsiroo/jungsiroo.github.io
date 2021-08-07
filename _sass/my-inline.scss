@@ -13,14 +13,22 @@ $dark-blue: #204056;
 
 html[data-theme="light"] {
   --link-color: rgb(0, 112, 201);
-  --main-background-color: hsl(0, 0%, 90%);
+  --main-background-color: #fff;
   --main-text-color: hsl(0, 0%, 20%);
+  --border-color: #fff;
+  --highlight-color: #abb2bf;
+  --menu-text-color: rgb(71, 71, 71);
+  --highlight-bg: rgba(255, 255, 255, 0.033);
 }
 
 html[data-theme="dark"] {
   --link-color: rgb(100, 210, 255);
   --main-background-color: hsl(0, 0%, 20%);
   --main-text-color: hsl(0, 0%, 85%);
+  --border-color: #343c3f;
+  --highlight-color: #abb2bf;
+  --menu-text-color: #bbb;
+  --highlight-bg: #2f3637;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,12 +37,16 @@ html[data-theme="dark"] {
     --link-color: rgb(100, 210, 255);
     --main-background-color: hsl(0, 0%, 20%);
     --main-text-color: hsl(0, 0%, 85%);
+    --border-color: hsl(0, 0%, 70%);
+    --highlight-bg: #2f3637;
   }
 
   html[data-theme="light"] {
     --link-color: rgb(0, 112, 201);
-    --main-background-color: hsl(0, 0%, 90%);
+    --main-background-color: #fff;
     --main-text-color: hsl(0, 0%, 20%);
+    --border-color: #fff;
+    --highlight-bg: rgba(255, 255, 255, 0.033);
   }
 }
 
@@ -63,10 +75,6 @@ article {
   color: var(--main-text-color);
 }
 
-th {
-  color: var(--main-text-color);
-}
-
 h1 {
   font-size: 2rem;
 }
@@ -80,11 +88,7 @@ p {
   font-size: 1.25rem;
 }
 
-main > article > p > em > a {
-  color: var(--main-text-color) !important;
-}
-
-main > article > p > strong > em > a {
+main a {
   color: var(--main-text-color) !important;
 }
 
@@ -150,4 +154,43 @@ main > article > p > strong > em > a {
   background-color: #333;
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+}
+
+th {
+  background-color: var(--border-color);
+  color: var(--main-text-color);
+}
+
+td {
+  background-color: var(--main-background-color) !important;
+}
+
+.content .avatar {
+  float: right;
+  box-sizing: content-box;
+  border: 1rem solid var(--main-background-color) !important;
+  transition: border-color 1s ease;
+  margin-top: -1.5rem;
+  margin-right: -1rem;
+}
+
+.avatar {
+  width: 8rem;
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-btn {
+  color: var(--menu-text-color);
+}
+
+pre {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--highlight-bg);
+  border-top-right-radius: 0.5rem !important;
+  border-bottom-right-radius: 0.5rem !important;
 }
