@@ -60,11 +60,11 @@ body {
 }
 
 #_navbar {
-  background-color: var(--main-background-color);
+  background-color: var(--main-background-color) !important;
 }
 
 .nav-btn-bar {
-  background-color: var(--main-background-color);
+  background-color: var(--main-background-color) !important;
 }
 
 article {
