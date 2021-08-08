@@ -1,13 +1,17 @@
-const isUserColorTheme = localStorage.getItem("color-theme");
+const isUserColorTheme = localStorage.getItem("data-theme");
 const isOsColorTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
   ? "dark"
   : "light";
 
-const getUserTheme = () =>
-  isUserColorTheme ? isUserColorTheme : isOsColorTheme;
+function getUserTheme() {
+  let ret = isUserColorTheme ? isUserColorTheme : isOsColorTheme;
+  return ret;
+}
 
 window.onload = function () {
-  if (getUserTheme === "dark") {
+  console.log(getUserTheme());
+
+  if (getUserTheme() === "dark") {
     localStorage.setItem("data-theme", "dark");
     document.documentElement.setAttribute("data-theme", "dark");
     $checkbox.setAttribute("checked", true);
@@ -19,7 +23,7 @@ window.onload = function () {
 
 function themeToggle(e) {
   if (e.target.checked) {
-    localStorage.setItem("data-theme", "light");
+    localStorage.setItem("data-theme", "dark");
     document.documentElement.setAttribute("data-theme", "dark");
   } else {
     localStorage.setItem("data-theme", "light");
