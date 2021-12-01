@@ -24,11 +24,11 @@ gem "jekyll-theme-hydejack", "~> 9.1.4"
 #    For details, see <https://github.com/kramdown/math-katex#documentation>
 #
 # If you're using the MathJax math engine instead, free to remove the line below:
-gem "kramdown-math-katex"
 
 group :jekyll_plugins do
   gem "jekyll-default-layout", git: "https://github.com/benbalter/jekyll-default-layout"
   gem "jekyll-feed"
+  gem "kramdown-math-katex"
   gem "jekyll-optional-front-matter"
   gem "jekyll-paginate"
   gem "jekyll-readme-index"

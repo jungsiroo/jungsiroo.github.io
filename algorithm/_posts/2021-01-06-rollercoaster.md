@@ -17,7 +17,7 @@ image:
 
 많이 고민한 완전탐색 문제이다 같이 문제를 살펴보자
 
-0. 
+* this unordered seed list will be replaced by the toc
 {:toc}
 
 ## 문제 설명

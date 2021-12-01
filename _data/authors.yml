@@ -2,36 +2,38 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Sihyun Jung
-  email:             fordevelop@pm.me
+  name: Sihyun Jung
+  email: fordevelop@pm.me
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    -Majoring in Computer Science in Hansung University
+  about: |
+    𝓦𝓱𝓪𝓽 𝔂𝓸𝓾 𝔀𝓪𝓲𝓽𝓲𝓷𝓰 𝓯𝓸𝓻?
+
+    -🏫 한성대학교 컴퓨터 공학부 재학 중
                       
-    -Interested in Python, Java, C, recently vanilla Javascript
-    
-    -Serving military service from '20.06.30 till '21.12.29
+    -🔥 프론트엔드와 백엔드를 둘 다 잘하고 싶은 예비 풀스택 개발자
+
+    -📖 현재 C++과 플러터를 중점적으로 공부 중!
 
   # This photo will be used in the about section
   picture:
-    path:            /assets/img/blog/about.jpg
-    # srcset is optional, but can be used to provide higher res versions for retina 
+    path: /assets/img/blog/about.jpg
+    # srcset is optional, but can be used to provide higher res versions for retina
     srcset:
-      1x:            /assets/img/blog/about.jpg
-      2x:            /assets/img/blog/about.jpg
-    sizes :
-      max-height : 500px
-      max-width : 500px
+      1x: /assets/img/blog/about.jpg
+      2x: /assets/img/blog/about.jpg
+    sizes:
+      max-height: 500px
+      max-width: 500px
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    instagram:       juxgsiroo
-    github:          alpha-src
-    email:           fordevelop@pm.me
+    instagram: juxgsiroo
+    github: alpha-src
+    email: fordevelop@pm.me
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -42,7 +44,7 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    
+
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>

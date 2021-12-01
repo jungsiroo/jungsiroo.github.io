@@ -15,8 +15,9 @@ image:
 
 간단한 완전탐색 문제이다. 같이 한번 보자.
 
-1. this ordered seed list will be replaced by the toc
+* this unordered seed list will be replaced by the toc
 {:toc}
+
 
 {:toc}
 
