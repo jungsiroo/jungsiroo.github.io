@@ -75,6 +75,7 @@ $$
 \end{aligned}
 $$
 
+
 간단한 공식
 {:.figcaption}
 
