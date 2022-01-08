@@ -1,14 +1,19 @@
 .dl-table {
   a {
-    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      text-underline-offset: .7rem;
+    @supports (
+      (text-decoration-thickness: initial) and (text-underline-offset: initial)
+    ) {
+      text-underline-offset: 0.7rem;
     }
-    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      padding-bottom: .3rem;
+    @supports not (
+      (text-decoration-thickness: initial) and (text-underline-offset: initial)
+    ) {
+      padding-bottom: 0.3rem;
     }
   }
 
-  .btn, .gumroad-button  {
+  .btn,
+  .gumroad-button {
     margin: 1rem 0;
   }
 }
@@ -23,29 +28,35 @@ applause-button {
   }
 }
 
-.top-menu-wrapper{
+.top-menu-wrapper {
   display: inline-block;
 }
 
-.nav-btn, .nav-btn-bar{
+.nav-btn,
+.nav-btn-bar {
   height: 3rem;
 }
-.top-menu{
+.top-menu {
   overflow-x: auto;
   // overflow-y: hidden;
   white-space: nowrap;
 }
-.top-menu.nav-btn{
+.top-menu.nav-btn {
   border: none;
   display: inline-flex;
   width: 6rem;
   margin-left: -1px;
 }
-.nav-btn:hover,.nav-btn:focus{
+.nav-btn:hover,
+.nav-btn:focus {
   color: grey;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-.nav-span{
+.nav-span {
   flex: none;
+}
+
+.utterances {
+  max-width: 100%;
 }

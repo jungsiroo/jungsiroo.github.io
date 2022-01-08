@@ -15,7 +15,7 @@ html[data-theme="light"] {
   --link-color: rgb(0, 112, 201);
   --main-background-color: #fff;
   --main-text-color: hsl(0, 0%, 20%);
-  --border-color: #fff;
+  --border-color: #ebebeb;
   --highlight-color: #727272;
   --menu-text-color: rgb(71, 71, 71);
   --highlight-bg: rgba(255, 255, 255, 0.033);
@@ -46,7 +46,7 @@ html[data-theme="dark"] {
     --link-color: rgb(0, 112, 201);
     --main-background-color: #fff;
     --main-text-color: hsl(0, 0%, 20%);
-    --border-color: #fff;
+    --border-color: #ebebeb;
     --highlight-bg: rgba(255, 255, 255, 0.033);
   }
 }
