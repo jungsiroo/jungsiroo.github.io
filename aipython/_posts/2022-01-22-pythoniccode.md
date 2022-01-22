@@ -20,7 +20,7 @@ image:
 
 # Pythonic Code
 
-## Why Pythonic Code?
+## 🙄 Why Pythonic Code?
 
 ### 남 코드에 대한 이해도
 
@@ -34,13 +34,15 @@ image:
 
 `쓰면 왠지 코드 잘 짜는 거처럼 보임`
 
-## Split & join
+<br>
+그럼 이제부터 차근차근 `Pythonic Code` 에 대해 알아보자! 🧐
 
+## 🗡 split & join
+
+### split
 > string type 의 값을 `기준값` 으로 나눠서 List 형태로 변환
 
-<pre><code class="python">"""
-split
-"""
+```python
 
 items = "zero one two three".split()    #빈칸을 기준으로 문자열 나누기
 print(items)
@@ -53,61 +55,80 @@ print(ex)
 a, b, c = ex     # 언패킹
 ex = 'teamlab.technology.io'
 subdomain, domain, tld = ex.split(".")
-
-"""
-join
-"""
+```
+### join
+```python
 
 colors = ['red', 'blue', 'green', 'yellow']
 "-".join(colors)
-# red-blue-green-yellow 
+# red-blue-green-yellow
+```
+<br>
+split 함수는 문자열을 공백에 따라 나눈 다음 리스트 형태로 반환된다. split은 공백뿐만 아니라 자신이 설정한 대로 문자열 분리가 이뤄지기도 한다.<br><br>
+join 함수는 리스트에 있는 것들을 `token` 값을 붙여 한 문자열로 만들어준다.
 
-</code></pre>
-
-## list comprehension
+## 🔗 list comprehension
 
 - 기존 list 사용하여 간단히 다른 list 를 만드는 기법
 - 포괄적인 list, 포함되는 리스트라는 의미로 사용됨
 - 파이썬에서 가장 많이 사용되는 기법 중 하나
 - 일반적으로 for + append 보다 속도가 빠름
 
-<pre><code class="python">result = [i for i in range(10)]
+
+### Basic
+```python
+result = [i for i in range(10)]
 # 0 1 2 3 4 5 6 7 8 9
 
 result = [i for i in range(10) if i%2==0]
 #0 2 4 6 8
+```
+위는 간단한 `list comprehension` 이다 `[ ]` 안에 for 문을 작성하여 위와 같이 나타낼 수 있다.
 
-"""
-nested for loop
-"""
+### Nested for loop
 
+```python
 word_1 = "Hello"
 word_2 = "World"
 
 result = [i+j for i in word_1 for j in word_2]
-
-"""
+```
 위 코드를 표현하면
+
+```python
 for i in word_1:
 	for j in word_2:
-"""
+		result.append(i+j)
+```
 
+위와 같은 코드와 똑같다. 그래서 `result` 의 결과값을 보면 아래와 같이 출력된다. 이 부분은 처음 안 부분으로 기억해두자.
+> ['HW', 'Ho', 'Hr', 'Hl', 'Hd', 'eW', 'eo', 'er', 'el', 'ed', 'lW', 'lo', 'lr', 'll', 'ld', 'lW', 'lo', 'lr', 'll', 'ld', 'oW', 'oo', 'or', 'ol', 'od']
+
+<br>
+
+```python
 result = [[i+j for i in word_1] for j in word_2]
+```
 
-"""
-위 코드를 표현하면
+위 코드는 조금 다른데 표현하면 아래와 같이 표현된다.
+```python
+line = []
+temp = []
+
 for j in word_2:
-	line = []
-	for i in word_1:
-		line.append(i+j)
+  temp = []
+  for i in word_1:
+    temp.append(i+j)
+    
+  line.append(temp)
+```
+따라서 결과값을 보면 아래와 같이 표현된다.
+> [['HW', 'eW', 'lW', 'lW', 'oW'], ['Ho', 'eo', 'lo', 'lo', 'oo'], ['Hr', 'er', 'lr', 'lr', 'or'], ['Hl', 'el', 'll', 'll', 'ol'], ['Hd', 'ed', 'ld', 'ld', 'od']]
 
-순서가 바뀌어 있음
-"""
 
-"""
-2 dimensional code
-"""
+### 2dimension list
 
+```python
 words = 'The quick brown fox jumps over the lazy dog'.splilt()
 stuff = [[w.upper(), w.lower(), len(w)] for w in words]
 
@@ -120,14 +141,15 @@ for i in stuff:
 ...
 ['Dog', 'dog', 3]
 """
-</code></pre>
+```
 
-## enumerate & zip
+## 🔓 enumerate & zip
 
-> enumerate : list 의 element 를 추출할 때 번호를 붙여서 추출
-> 
+### enumerate
+> list 의 element 를 추출할 때 번호를 붙여서 추출
 
-<pre><code class="python">for i, v in enumerate(['tic', 'tac', 'toe']):
+```python
+for i, v in enumerate(['tic', 'tac', 'toe']):
 	print(i, v)
 
 """
@@ -135,12 +157,15 @@ for i in stuff:
 1 tac
 2 toe
 """
-</code></pre>
+```
 
-> zip : 두 개의 list 의 값을 병렬적으로 추출함
-> 
+### zip
 
-<pre><code class="python">alist = ['a1', 'a2', 'a3']
+>  두 개의 list 의 값을 병렬적으로 추출함
+
+
+```python
+alist = ['a1', 'a2', 'a3']
 blist = ['b1', 'b2', 'b3']
 
 for a, b in zip(alist, blist):
@@ -151,8 +176,11 @@ a1 b1
 a2 b2
 a3 b3
 """
+```
 
-# enumerate + zip
+### enumerate & zip combination
+
+```python
 alist = ['a1', 'a2', 'a3']
 blist = ['b1', 'b2', 'b3']
 
@@ -164,14 +192,16 @@ for i, values in enumerate(zip(alist, blist)):
 1 ('a2', 'b2')
 2 ('a3', 'b3')
 """
-</code></pre>
+```
 
-## lambda & map & reduce `important`
+## 🕹 lambda & map & reduce `important`
 
-> lambda  : 함수 이름 없이, 함수처럼 쓸 수 있는 익명함수
-> 
+### lambda
 
-<pre><code class="python">#general function
+> 함수 이름 없이, 함수처럼 쓸 수 있는 익명함수
+
+```python
+#general function
 def f(x,y):
 	return x+y
 
@@ -182,7 +212,7 @@ f = lambda x, y:x+y
 print(f(1,4))
 
 (lambda x,y:x+y)(10,50)
-</code></pre>
+```
 
 **`pep8 에서는 lambda 사용을 권장하지 않음`**
 
@@ -195,39 +225,39 @@ print(f(1,4))
 - 이름이 존재하지 않는 함수의 출현
 - 그래도 많이 쓰임,,,
 
-## map
+### map
 
 > 두 개 이상의 list 에도 적용 가능함, if filter 사용가능
-> 
 
-<pre><code class="python">ex = [1,2,3,4,5]
+```python
+ex = [1,2,3,4,5]
 f = lambda x:x**2
 
 print(list(map(f, ex))) # 각각 적용하는 거임
 # 1 4 9 16 25
 
 [f(value) for value in ex]
-</code></pre>
+```
 
 **`list comprehension`** 으로 해결하는 게 더 간단함
 
-## reduce
+### reduce
 
 > map function 과 달리 list 에 똑같은 함수를 적용해서 통합
-> 
 
-<pre><code class="python">from functools import reduce
+```python
+from functools import reduce
 print(reduce(lambda x,y:x+y, [1,2,3,4,5]))
 
 #15
-</code></pre>
+```
 
-## generator
+## 🛴 generator
 
 > 메모리 효율
-> 
 
-<pre><code class="python">def generator_list(value):
+```python
+def generator_list(value):
 	result = []
 	for i in range(value):
 		yield i
@@ -239,7 +269,7 @@ for _ in generator_list(50):
 gen_ex = (n*n for n in range(50))
 print(type(gen_ex))
 # generator
-</code></pre>
+```
 
 **When generator**
 
@@ -249,13 +279,13 @@ print(type(gen_ex))
     - 데이터가 커도 처리의 어려움이 없음
 - 파일 데이터를 처리할 때도 generator 를 쓰자
 
-## function passing arguments
+## ⌨️ function passing arguments
 
 - keyword args
 - default args
 - variable-length args
 
-**Keyword arguments**
+### Keyword arguments
 
 > 함수에 입력되는 parameter 의 변수명을 사용, arguments 를 넘김
 > 
@@ -267,7 +297,7 @@ print_sth(your_name="TEAMLAB", my_name="Sihyun")
 # Hello TEAMLAB, My name is Sihyun
 </code></pre>
 
-**Default arguments**
+### Default arguments
 
 > parameter 의 기본 값을 사용, 입력하지 않을 경우 기본값 출력
 > 
@@ -279,7 +309,7 @@ print_sth("Sihyun", "TEAMLAB")
 print_sth("Sihyun")
 </code></pre>
 
-**variable-length asterisk**
+### variable-length asterisk
 
 > 함수의 parameter 가 정해지지 않았다
 > 
@@ -296,7 +326,7 @@ print(asterist_test(1,2,3,4,5))
 # 1 -> a, 2->b, 3,4,5 -> args
 </code></pre>
 
-**Keyword variable-length**
+### Keyword variable-length
 
 - Parameter 이름을 따로 지정하지 않고 입력하는 방법
 - `asterisk(*) 두 개를 사용` 하여 함수의 parameter 를 표시함
@@ -310,7 +340,7 @@ kwargs_test(first=3, second=4, third=5)
 # {'first' : 3, 'second' : 4, 'third':5} 
 </code></pre>
 
-**asterisk - unpacking a container**
+### asterisk - unpacking a container
 
 - tuple, dict 등 자료형에 들어가 있는 값을 unpacking
 - 함수의 입력값, zip 등에 유용하게 사용가능
@@ -323,3 +353,7 @@ asterist_test(1, *(2,3,4,5,6))
 # 1,2,3,4,5,6
 # 1, (2,3,4,5,6)
 </code></pre>
+
+<hr>
+
+지금까지 `pythonic code` 에 대해 알아보았다. 몰랐던 부분도 상당히 많았던만큼 자주 복습하자!
