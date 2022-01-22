@@ -40,6 +40,8 @@ keywords:
     컴공과,
     프론트엔드,
     백엔드,
+    AI,
+    NLP,
   ]
 
 # A (square) logo for your site.
@@ -59,10 +61,15 @@ author:
 menu:
   - title: Dev Life
     url: /devlife/
+  - title: AI Math
+    url: /aimath/
+  - title: AI Python
+    url: /aipython/
   - title: Algorithm
     url: /algorithm/
   - title: About
     url: /about/
+  
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
