@@ -89,17 +89,16 @@ $$
 알아내면 될 것이다. 
 
 
-```c++
-using namespace std;
+<pre><code class="C++">using namespace std;
 
-map<string, int> getHash(vector<vector<string>> clothes) {
-    map<string, int> ret;
+map&lt;string, int> getHash(vector&lt;vector&lt;string>> clothes) {
+    map&lt;string, int> ret;
     
-    for(int i=0; i<clothes.size(); i++) {
+    for(int i=0; i&lt;clothes.size(); i++) {
         auto itr = ret.find(clothes[i][1]);
         
         if(itr == ret.end()) {
-            ret.insert(pair<string, int>(clothes[i][1], 1));
+            ret.insert(pair&lt;string, int>(clothes[i][1], 1));
         } else {
             itr->second++;
         }
@@ -109,9 +108,9 @@ map<string, int> getHash(vector<vector<string>> clothes) {
     return ret;
 }
 
-int solution(vector<vector<string>> clothes) {
-    map<string, int>::iterator itr;
-    map<string, int> ret = getHash(clothes);
+int solution(vector<&ltvector&lt;string>> clothes) {
+    map&lt;string, int>::iterator itr;
+    map&lt;string, int> ret = getHash(clothes);
     
     int answer = 1;
     
@@ -121,7 +120,7 @@ int solution(vector<vector<string>> clothes) {
     
     return answer-1;
 }
-```
+</code></pre>
 
 ### 코드 설명
 

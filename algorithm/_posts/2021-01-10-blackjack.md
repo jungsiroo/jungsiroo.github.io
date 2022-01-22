@@ -45,13 +45,12 @@ image:
 
 짜는데 정말 몇 분 안 걸렸다. 확인해보자.
 
-~~~ c++
-void solve(vector<int>& cards, int maxNumb) {
+<pre><code class="C++">void solve(vector&lt;int&gt;& cards, int maxNumb) {
     int ret = 0;
 
-    for(vector<int>::size_type i=0; i < cards.size(); i++) 
-        for(vector<int>::size_type j=i+1; j < cards.size();j++) 
-            for(vector<int>::size_type k=j+1; k < cards.size(); k++) 
+    for(vector&lt;int&gt;::size_type i=0; i < cards.size(); i++) 
+        for(vector&lt;int>&gt::size_type j=i+1; j < cards.size();j++) 
+            for(vector&lt;int&gt;::size_type k=j+1; k < cards.size(); k++) 
                 if(max(ret, cards[i] + cards[j] + cards[k]) <= maxNumb)
                     ret = max(ret, cards[i] + cards[j] + cards[k]);
 
@@ -63,14 +62,14 @@ int main() {
     int N, M;
     cin >> N >> M;
 
-    vector<int> cards(N);
+    vector&lt;int&gt; cards(N);
 
     for(int i=0; i<cards.size(); i++)
         cin >> cards[i];
 
     solve(cards, M);
-}   
-~~~
+}
+</code></pre>
 
 BlackJack problem Solve
 {:.figcaption}

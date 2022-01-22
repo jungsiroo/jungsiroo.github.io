@@ -18,7 +18,7 @@ html[data-theme="light"] {
   --border-color: #ebebeb;
   --highlight-color: #727272;
   --menu-text-color: rgb(71, 71, 71);
-  --highlight-bg: rgba(255, 255, 255, 0.033);
+  --highlight-bg: rgba(196, 196, 196, 0.219);
 }
 
 html[data-theme="dark"] {
@@ -27,28 +27,8 @@ html[data-theme="dark"] {
   --main-text-color: hsl(0, 0%, 85%);
   --border-color: #343c3f;
   --menu-text-color: #bbb;
-  --highlight-bg: #383a38;
+  --highlight-bg: rgba(161, 161, 161, 0.096);
   --code-text: #abb2bf;
-}
-
-@media (prefers-color-scheme: dark) {
-  html,
-  html[data-theme="dark"] {
-    --link-color: rgb(100, 210, 255);
-    --main-background-color: hsl(0, 0%, 20%);
-    --main-text-color: hsl(0, 0%, 85%);
-    --border-color: hsl(0, 0%, 70%);
-    --highlight-bg: #383a38;
-    --code-text: #abb2bf;
-  }
-
-  html[data-theme="light"] {
-    --link-color: rgb(0, 112, 201);
-    --main-background-color: #fff;
-    --main-text-color: hsl(0, 0%, 20%);
-    --border-color: #ebebeb;
-    --highlight-bg: rgba(255, 255, 255, 0.033);
-  }
 }
 
 body {
@@ -189,21 +169,7 @@ td {
 }
 
 pre {
-  padding: 1rem;
-  margin-bottom: 1.5rem;
   background-color: var(--highlight-bg);
-  border-top-right-radius: 0.5rem !important;
-  border-bottom-right-radius: 0.5rem !important;
-  color: var(--code-text) !important;
-}
-
-.p,
-.nf,
-.n,
-.ow,
-.nn,
-.o {
-  color: var(--code-text) !important;
 }
 
 mjx-container {

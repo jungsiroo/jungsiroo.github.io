@@ -1,8 +1,16 @@
 <!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    hljs.highlightAll();
+  });
+</script>
+
 <script>
   document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    hljs.highlightAll();
     function e(e){
       (console.error?console.error:console.log).call(console,e)
     }
@@ -57,3 +65,4 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     themeToggle(e);
   });
 </script>
+

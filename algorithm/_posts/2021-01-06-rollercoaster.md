@@ -49,8 +49,7 @@ image:
 
 위 시행착오들을 거치고 좀 더 생각을 단순화하기로 한다. 우리가 구해야 할 것은 결국 ***뇌물을 준 사람의 수*** 이다. 그렇다면 괜한 ***Sorting***, ***원 위치로 스왑*** 등을 쓰지 않아도 될 것 같다. 아래의 코드를 보자.
 
-~~~ java
-public class Rollercoaster {
+<pre><code class="java">public class Rollercoaster {
     static void minimumBribes(int[] q) {
         int ret = 0;
 
@@ -59,14 +58,15 @@ public class Rollercoaster {
                 System.out.println("Too chaotic");
                 return;
             }
-            for (int j = Math.max(0, q[i] - 2); j < i; j++) //인당 최대 2명까지만 뇌물 가능
+            for (int j = Math.max(0, q[i] - 2); j < i; j++) 
+                //인당 최대 2명까지만 뇌물 가능
                 if (q[j] > q[i]) ret++;
         }
 
         System.out.println(ret);
     } 
 }
-~~~
+</code></pre>
 
 New Year Choas 문제 해결
 {:.figcaption}
