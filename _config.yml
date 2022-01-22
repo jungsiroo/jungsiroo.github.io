@@ -61,12 +61,12 @@ author:
 menu:
   - title: Dev Life
     url: /devlife/
+  - title: Algorithm
+    url: /algorithm/
   - title: AI Math
     url: /aimath/
   - title: AI Python
     url: /aipython/
-  - title: Algorithm
-    url: /algorithm/
   - title: About
     url: /about/
   
@@ -110,7 +110,7 @@ collections:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.1.5
 
 # Customizaton
