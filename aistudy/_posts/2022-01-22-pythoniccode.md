@@ -4,7 +4,7 @@ title: Pythonic Code
 description: >
   Naver boostcamp AI Tech - Python Basics for AI
 hide_description: false
-category: aipython
+category: aistudy
 image:
   path: ../../assets/img/thumbnail/pythonic.png
 ---

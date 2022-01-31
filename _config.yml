@@ -59,14 +59,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Dev Life
+  - title: Dev Log
     url: /devlife/
+  - title: AI Study
+    url: /aistudy/
   - title: Algorithm
     url: /algorithm/
-  - title: AI Math
-    url: /aimath/
-  - title: AI Python
-    url: /aipython/
   - title: About
     url: /about/
   
@@ -153,13 +151,13 @@ defaults:
 
   # Don't include documents in assets in the sitemap
   - scope:
-      path: assets/
+      path: assets/**
     values:
       sitemap: false
 
   # Don't include licenses in sitemap (feel free to delete)
   - scope:
-      path: licenses/
+      path: licenses/**
     values:
       sitemap: false
 
