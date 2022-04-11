@@ -29,6 +29,8 @@ description: >
 # A shorter description for the sidebar.
 tagline: 𝒢𝓇𝒾𝓃𝒹 𝒽𝒶𝓇𝒹, 𝒮𝒽𝒾𝓃𝑒 𝒽𝒶𝓇𝒹
 
+timezone: Asia/Seoul
+
 # A list of keywords for your blog
 keywords:
   [
@@ -168,6 +170,22 @@ defaults:
       # https://applause-button.com/
       applause_button: true
       sitemap: true
+
+  # Don't include site verification file(for google) in the sitemap
+  - scope:
+      path: googlecdcf707181f23bb2.html
+    values:
+      sitemap: false
+  - scope:
+      path: netlify.toml
+    values:
+      sitemap: false
+
+  # Don't include site verification file(for naver) in the sitemap
+  - scope:
+      path: naver20820d70fa6bd319562adbc129c16c7f.html
+    values:
+      sitemap: false
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -325,6 +343,8 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - "*.toml"
+  - node_modules
 include:
   - .well-known
   - LICENSE.md
@@ -351,7 +371,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: "Qcvf0wIco-7hmNUVeiFsabmFDnaaK_BlYqaRhx9p1bg"
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
