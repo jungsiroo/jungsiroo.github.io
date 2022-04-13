@@ -10,12 +10,12 @@ slug: algorithm
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-    알고리즘 분석
+    알고리즘 문제를 푼 내용을 기록합니다.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: true
+sitemap: false
 ---
