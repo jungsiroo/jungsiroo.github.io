@@ -5,7 +5,7 @@
 
 ***Apply Neat, Clean Theme to my github page***
 
-* [*My Github Page*](https://alpha-src.github.io)
+* [*My Github Page*](https://jungsiroo.github.io)
 * [*Markdown Editor*](https://stackedit.io/app#)
 * *Theme* : `Hydejack Jekyll Theme`
 
