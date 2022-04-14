@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url: https://alpha-src.github.io
+url: https://jungsiroo.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -227,7 +227,7 @@ comments:
 # Make sure all variables are set properly. Check below link for detail.
 # https://utteranc.es/
 utterances:
-  repo: "alpha-src/alpha-src.github.io"
+  repo: "jungsiroo/jungsiroo.github.io"
   issue-term: "pathname"
   label: "comments"
   theme: "photon-dark"
