@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://jungsiroo.github.io/sitemap.xml
