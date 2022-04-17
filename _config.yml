@@ -35,7 +35,6 @@ timezone: Asia/Seoul
 keywords:
   [
     developer,
-    college,
     computerscience,
     개발자,
     개발,
@@ -169,7 +168,6 @@ defaults:
       comments: true
       # https://applause-button.com/
       applause_button: true
-      sitemap: true
 
   # Don't include site verification file(for google) in the sitemap
   - scope:
