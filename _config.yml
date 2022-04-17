@@ -181,7 +181,7 @@ defaults:
 
   # Don't include site verification file(for naver) in the sitemap
   - scope:
-      path: naver20820d70fa6bd319562adbc129c16c7f.html
+      path: naver2657e454582d28aa43ffc38586e349d5.html
     values:
       sitemap: false
 
