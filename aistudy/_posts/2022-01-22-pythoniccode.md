@@ -2,7 +2,7 @@
 layout: post
 title: Pythonic Code
 description: >
-  Naver boostcamp AI Tech - Python Basics for AI
+  Python Basics for AI
 hide_description: false
 category: aistudy
 image:

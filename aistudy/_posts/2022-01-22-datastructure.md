@@ -2,7 +2,7 @@
 layout: post
 title: 파이썬의 기본 자료구조
 description: >
-  Naver boostcamp AI Tech - Python Basics for AI
+  Python Basics for AI
 hide_description: false
 category: aistudy
 image:

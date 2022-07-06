@@ -2,7 +2,7 @@
 layout: post
 title: Pytorch - Basic Code in Pytorch
 description: >
-  Naver boostcamp AI Tech - Pytorch for AI
+  Pytorch for AI
 hide_description: false
 category: aistudy
 image:

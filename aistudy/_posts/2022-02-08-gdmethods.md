@@ -2,7 +2,7 @@
 layout: post
 title: Deep Learning Basic <br>- Gradient Descent Methods
 description: >
-  Naver boostcamp AI Tech - Deep Learning Basic
+  Deep Learning Basic
 hide_description: false
 category: aistudy
 image:
