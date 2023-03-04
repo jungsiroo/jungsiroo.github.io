@@ -18,8 +18,8 @@ author1:
       1x: /assets/img/blog/about.png
       2x: /assets/img/blog/about.png
     sizes:
-      max-height: 500px
-      max-width: 500px
+      max-height: 800px
+      max-width: 800px
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
