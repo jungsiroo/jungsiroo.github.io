@@ -64,6 +64,8 @@ menu:
     url: /devlife/
   - title: AI Study
     url: /aistudy/
+  - title: CS Study
+    url: /study/
   - title: Algorithm
     url: /algorithm/
   - title: About
@@ -125,18 +127,18 @@ theme_color: rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts: Jua|Roboto+Slab:700|Gothic+A1:wght@200|IBM+Plex+Sans+KR:wght@200|Do+Hyeon
+google_fonts: Jua|Roboto+Slab:700|Gothic+A1:wght@200|IBM+Plex+Sans+KR:wght@200|Do+Hyeon|Single+Day
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font: Gothic A1, Helvetica, Arial, sans-serif
+font: GmarketSansMedium, Gothic A1, Helvetica, Arial, sans-serif
 
-# The font used for headings. Expects a string that is a valid CSS font-family value.
+# The font used for headings. Expects a string that is a valid CSS font-family value.Single Day
 # To change font-weight, see _sass/variables.scss
 font_heading: Jua, Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code: GmarketSansMedium, Fira Code, Menlo, Monaco, Consolas, monospace;
 
 defaults:
   # You can use this to provide a default accent color and background for
@@ -228,7 +230,7 @@ utterances:
   repo: "jungsiroo/jungsiroo.github.io"
   issue-term: "pathname"
   label: "comments"
-  theme: "photon-dark"
+  theme: "boxy-light"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -450,9 +452,6 @@ jekyll_compose:
         - title: Project Link
           url: https://example.com
 
-  # Analytics
-analytics:
-  provider: "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id: "G-CLMB9QF3KZ"
-    anonymize_ip: # true, false (default)
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Analytics from your page, remove the line below.
+google_analytics: G-CLMB9QF3KZ

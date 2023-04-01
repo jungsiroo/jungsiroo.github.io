@@ -1,4 +1,19 @@
 // You can add CSS rules here that will be inlined into each document.
+@font-face {
+  font-family: 'Humanbumsuk';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .sidebar a {
   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 }
@@ -18,8 +33,12 @@ html[data-theme="light"] {
   --border-color: #ebebeb;
   --highlight-color: #727272;
   --menu-text-color: rgb(71, 71, 71);
-  --highlight-bg: rgba(196, 196, 196, 0.219);
-  --gray-bg:rgba(0,0,0,0.025);
+  --highlight-bg: #fff;
+  --gray-bg: #E7F6F2;
+  --block-bg : #F8F9FA;
+  --block-left : rgba(79,177,186,0.5);
+  --block-color : #181823;
+  --code-bg : #EEEEEE;
 }
 
 html[data-theme="dark"] {
@@ -28,9 +47,13 @@ html[data-theme="dark"] {
   --main-text-color: hsl(0, 0%, 85%);
   --border-color: #343c3f;
   --menu-text-color: #bbb;
-  --highlight-bg: rgba(161, 161, 161, 0.096);
+  --highlight-bg: hsl(0, 0%, 20%);
   --code-text: #abb2bf;
-  --gray-bg:rgba(255,255,255,.033);
+  --gray-bg:#3F4E4F;
+  --block-bg : rgb(60, 60, 60);
+  --block-left : rgba(79,177,186,0.5);
+  --block-color : #c1c1d1;
+  --code-bg: #393E46;
 }
 
 body {
@@ -178,9 +201,17 @@ mjx-container {
 }
 
 blockquote {
-  color: rgb(150, 150, 150) !important;
+  background-color: var(--block-bg) !important;
+  border-left-color : var(--block-left) !important;
+  color: var(--block-color) !important;
 }
 
 code {
   background-color: var(--gray-bg);
+  border-radius: 10px;
+}
+
+.hljs { 
+  background-color: var(--code-bg) !important;
+  color: var(--block-color) !important;
 }
