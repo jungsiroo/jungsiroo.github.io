@@ -43,6 +43,7 @@ ncr = list(combinations(arr, 2))
 
 <pre><code class="python">array = [1,2,3]
 k = 2
+used = [False for i in range(len(array))]
 
 def backtrack_perm(arr):
     if len(arr)==k:
@@ -50,36 +51,37 @@ def backtrack_perm(arr):
         return arr
 
     for i in range(len(array)):
-        backtrack_perm(arr+[array[i]])
+        if used[i]==False:
+            used[i] = True
+            backtrack_perm(arr+[array[i]])
+            used[i] = False
 
-used = [False for i in range(len(array))]
-
-def backtrack_comb(arr):
+def backtrack_comb(idx, arr):
     if len(arr)==k:
         print(arr, end=" ")
         return arr
 
-    for i in range(len(array)):
+    for i in range(idx+1, len(array)):
         if used[i]==False:
             used[i] = True
-            backtrack_comb(arr+[array[i]])
+            backtrack_comb(i, arr+[array[i]])
             used[i] = False
 
 backtrack_perm([])
-# [1, 1] [1, 2] [1, 3] [2, 1] [2, 2] [2, 3] [3, 1] [3, 2] [3, 3]
-
-backtrack_comb([])
 # [1, 2] [1, 3] [2, 1] [2, 3] [3, 1] [3, 2]
+
+backtrack_comb(-1, [])
+# [1, 2] [1, 3] [2, 3] 
 
 </code></pre>
 
 라이브러리를 사용하지 않은 코드
 {:.figcaption}
 
-순열같은 겨우 간단하게 재귀함수를 통해 매개변수에 하나씩 원소를 더해주고 길이가 우리가 원하는 길이만큼 달성됐다면 `arr` 을 리턴해주게 된다.
+순열같은 겨우 간단하게 재귀함수를 통해 매개변수에 하나씩 원소를 더해주고 길이가 우리가 원하는 길이만큼 달성됐다면 `arr` 을 리턴해주게 된다.`used` 라는 방문 체크 배열이 필요하다. 
 
-조합같은 경우는 `used` 라는 방문 체크 배열이 필요하다. 조합은 순서를 고려하지 않기에 중복을 없애줘야 하며 `used` 를 통해 원소를 썼는지 체크하고 다 쓴 후에는 다시 `used[i] = False` 를 통해 
-원상복구 시켜둔다.
+조합은 순서를 고려하지 않기에 중복을 제거해줘야 한다. 그럼 순열에서 중복만 피해주면 되기에 idx 라는 매개변수를 하나 더 추가했다. 앞에꺼는 무시하고 그 다음 것부터 배열을 만드는 것이다. 따라서
+`for i in range(idx+1, len(array))` 가 핵심이라 볼 수 있다. 그리고 처음으로 호출할 때는 -1 부터 호출해야 0부터 시작하는 것을 간과하지 말자.
 
 ---
 
