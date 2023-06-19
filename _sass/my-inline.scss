@@ -206,6 +206,10 @@ blockquote {
   color: var(--block-color) !important;
 }
 
+blockquote.lead {
+  font-size: 0.9em !important;
+}
+
 code {
   // background-color: var(--gray-bg);
   border-radius: 10px;

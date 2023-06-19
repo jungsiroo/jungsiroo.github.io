@@ -1,4 +1,4 @@
-# Welcome to alpha-src's Github Page
+# Welcome to jungsiroo's Github Page
 
 ![alpha-src][logo-white]
 ![alpha-src][logo-black]
