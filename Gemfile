@@ -39,7 +39,6 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-avatar"
   # Non-Github Pages plugins:
-  gem "jekyll-last-modified-at"
   gem "jekyll-compose"
   gem "kramdown-parser-gfm"
 end
