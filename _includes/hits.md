@@ -1,0 +1,1 @@
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjungsiroo.github.io{{ page.url }}&count_bg=%233D99C8&title_bg=%2332392F&icon=cliqz.svg&icon_color=%23E3E3E3&title=View&edge_flat=false)
