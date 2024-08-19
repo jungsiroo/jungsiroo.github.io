@@ -12,6 +12,9 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
 오늘부터 네이버 boostcamp AI Tech 에서 들은 강의들을 정리해서 올리려고 한다. 첫번째 포스팅은 `Python Basics for AI` 강좌 중 `자료구조` 에 대해 다뤄보겠다.
 
 * this unordered seed list will be replaced by the toc

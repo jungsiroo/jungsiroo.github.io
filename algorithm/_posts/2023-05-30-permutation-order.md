@@ -7,10 +7,15 @@ hide_description: false
 category: algorithm
 image:
   path: https://github.com/jungsiroo/jungsiroo.github.io/assets/54366260/389aede4-7099-4fae-903b-c2c8238c47db
+hits: true
 ---
 
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
+
+{% include hits.md %}
+{:.figcaption}
+
 
 요즘 매일 아침 7시마다 코딩테스트 스터디를 진행 중이다. 그냥 문제를 풀고 휘발시키기 아까워 이렇게 블로그에 남겨두려 한다. 이번에 풀 문제는 
 [순열의 순서](https://www.acmicpc.net/problem/1722){:target="_blank"} 이다.

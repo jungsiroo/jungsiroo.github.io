@@ -12,6 +12,10 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 논문 스터디를 시작하고 첫 발표를 어떤 논문을 리뷰해야될지 고민하다가 딥러닝을 이용한 유튜브의 추천 시스템 논문을 하기로 하였다. 추천시스템을 공부하려면
 거의 필수 논문이라고 생각되는만큼 조금 더 재밌고 이해하기 쉽게 리뷰할 생각이다. 
 

@@ -9,6 +9,10 @@ image:
   path: https://images.unsplash.com/photo-1620856516969-6b6f1c1e780b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
 
+{% include hits.md %}
+{:.figcaption}
+
+
 ***본 알고리즘 유형은 C++를 이용하여 해결한다.***
 {:.note}
 

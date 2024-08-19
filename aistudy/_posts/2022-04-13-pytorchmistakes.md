@@ -9,9 +9,14 @@ image:
   path: https://images.unsplash.com/photo-1585543253202-04d3d9f11961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
 
+{% include hits.md %}
+{:.figcaption}
+
+
 ***[원본 유튜브](https://www.youtube.com/watch?v=O2wJ3tkc-TU){:target="_blank"}***<br>
 ***위 영상을 보고 공유하면 좋다고 생각하여 글로 남깁니다.***
 {:.note}
+
 
 <br>
 

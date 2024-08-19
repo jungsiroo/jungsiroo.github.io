@@ -13,6 +13,10 @@ title: Bias vs Variance
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 요즘 가장 많이 드는 생각은 개발을 너무 못하고 있다는 생각이다. 은행 업무를 하다보니 숙지해야될 업무들이 많아지고 이에 따라서 프로젝트나 어떤 공부를 하기가 참 어렵다는 생각이 들었다.
 그렇게 퇴근하면서 종종 테크 관련 유튜브들을 보는데 요즘 흥미롭게 본 채널은 [`CODER X DOX`](https://www.youtube.com/@coderxdox){:target="_blank"} 라는 분이다. 
 (이럴 때 또 한번 유튜브의 추천이 대단하다고 느낀다... [`Youtube Recommendations`](https://jungsiroo.github.io/aistudy/2023-05-07-youtube-rec-sys/){:target="_blank"} 논문 리뷰도 같이 보면 좋다!)

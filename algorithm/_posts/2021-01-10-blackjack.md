@@ -13,6 +13,10 @@ image:
 ***본 문제는 C++17을 이용하여 해결하였다.***
 {:.note}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 간단한 완전탐색 문제이다. 같이 한번 보자.
 
 * this unordered seed list will be replaced by the toc

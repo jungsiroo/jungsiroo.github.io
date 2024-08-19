@@ -13,6 +13,10 @@ title: 목적함수 vs 비용함수 vs 손실함수
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 Optimization을 공부하는 도중 예전에 내가 공부할 당시, 목적함수 / 비용함수 / 손실함수를 항상 헷갈려했다. 이를 간결하게 정리하고자 한다.
 
 * this unordered seed list will be replaced by the toc

@@ -15,6 +15,10 @@ image:
 ***영어 공부를 위해 문제 원문, 해석본을 같이 첨부한다.***
 {:.note}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 많이 고민한 완전탐색 문제이다 같이 문제를 살펴보자
 
 * this unordered seed list will be replaced by the toc

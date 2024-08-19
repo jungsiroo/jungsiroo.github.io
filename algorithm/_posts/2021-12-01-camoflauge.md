@@ -13,6 +13,10 @@ image:
 ***본 문제는 C++를 이용하여 해결하였다.***
 {:.note}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 문제가 어렵다기보다 수학적 사고 능력을 요구하는 문제이다. 한번 같이 보자.
 
 * this unordered seed list will be replaced by the toc

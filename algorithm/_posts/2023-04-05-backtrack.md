@@ -12,6 +12,10 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 요즘 BFS/DFS 및 백트래킹을 공부하면서 알고리즘을 공부 중이다. 오늘은 백트래킹에 대해서 배우는데 예전에 썼던 
 [부분조합](https://jungsiroo.github.io/algorithm/2021-12-29-subset/){:target="_blank"} 문제를 파이썬으로 구현하기 위해 이 글을 쓴다.
 

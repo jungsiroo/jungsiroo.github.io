@@ -12,6 +12,10 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 **Pytorch** 강좌를 수강하면서 이해 안됐던 `collate_fn` 에 대해 포스팅하려 한다.
 
 * this unordered seed list will be replaced by the toc

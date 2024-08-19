@@ -12,6 +12,10 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 오늘은 꽤나 중요한 부분을 다루는 포스팅이다. 바로 `Pythonic Code` 이다. 인공지능을 위한 코드를 짜려면 이제 `Python` 을 주로 (거의 무조건) 쓸텐데
 이때 파이썬 스타일대로 짜야 남들도 이해하기 쉽고 효율성 면에서도 이득을 볼 수 있다. 차근차근 봐보도록 하자
 

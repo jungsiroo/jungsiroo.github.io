@@ -12,6 +12,10 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 **DL BASIC** 강좌를 들으면서 배운 것 중 `Gradient Descent Methdos` 에 대해 포스팅하려 한다. 
 
 * this unordered seed list will be replaced by the toc

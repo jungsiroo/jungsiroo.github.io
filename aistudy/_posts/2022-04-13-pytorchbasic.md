@@ -12,6 +12,10 @@ image:
 **해당 썸네일은 `Wonkook Lee` 님이 만드신 [`Thumbnail-Maker`](https://wonkooklee.github.io/thumbnail_maker/){:target="_blank"} 를 이용하였습니다**
 {:.figcaption}
 
+{% include hits.md %}
+{:.figcaption}
+
+
 블로그를 정리하려고 마음 먹으면서 한참 전에 들었던 **Pytorch** 강좌를 다시 보면서 옛날에는 정말 이해가 안됐는데 이제는 조금 익숙해진 것을 
 포스팅 하려 한다.
 
