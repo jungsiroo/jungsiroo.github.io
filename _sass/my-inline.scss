@@ -75,6 +75,17 @@ article {
   margin: 2em auto;
 }
 
+table {
+  margin-left: 0;
+  
+}
+
+ul, ol, dl {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
 .flip-title {
   color: var(--main-text-color);
 }
@@ -91,6 +102,7 @@ h2 {
 p {
   line-height: 30px;
   font-size: 16px;
+  margin-bottom: 0.3rem;
 }
 
 main a {
@@ -102,6 +114,7 @@ main a {
 }
 
 .note-sm {
+  margin-left: 0;
   color: var(--main-text-color);
 }
 
@@ -209,6 +222,7 @@ blockquote {
 
 blockquote.lead {
   font-size: 0.9em !important;
+  margin-left: 0;
 }
 
 code {
