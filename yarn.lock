@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-"applause-button@^3.3.2":
-  "integrity" "sha512-jYx7jSqITBXLQijuQ5aEoxb+PbjD8xCHgjvfWrvFFk/MtM8/DBT7gPHk0wTQPD7+IMwwZLw/9hMK/i5vX5kWEw=="
-  "resolved" "https://registry.npmjs.org/applause-button/-/applause-button-3.4.0.tgz"
-  "version" "3.4.0"
-  dependencies:
-    "document-register-element" "^1.8.1"
+"@ungap/custom-elements@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@ungap/custom-elements/-/custom-elements-1.3.0.tgz#c1b7623887f774f274f308a1468098894826c2be"
+  integrity sha512-f4q/s76+8nOy+fhrNHyetuoPDR01lmlZB5czfCG+OOnBw/Wf+x48DcCDPmMQY7oL8xYFL8qfenMoiS8DUkKBUw==
 
-"document-register-element@^1.8.1":
-  "integrity" "sha512-w5UA37hEIrs+9pruo2yR5UD13c4UHDlkqqjt4qurnp7QsBI9b1IOi8WXUim+aCqKBsENX3Z/cso7XMOuwJH1Yw=="
-  "resolved" "https://registry.npmjs.org/document-register-element/-/document-register-element-1.14.10.tgz"
-  "version" "1.14.10"
+applause-button@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/applause-button/-/applause-button-4.0.3.tgz#114923b95d775960555c6277ddf334454d6ee2e5"
+  integrity sha512-jGBSSS+8rxpQIrMVAVhkjS8s5pGfnE5ZmZz8CTpU5qiRyoXpQv+a9wA6k7hcCcqvFLanMshikkodIC6qQ6KULw==
+  dependencies:
+    "@ungap/custom-elements" "^1.3.0"
