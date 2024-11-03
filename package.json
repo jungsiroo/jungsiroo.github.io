@@ -1,5 +1,6 @@
 {
   "dependencies": {
     "applause-button": "^4.0.3"
-  }
+  },
+  "type":"module"
 }

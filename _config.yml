@@ -365,6 +365,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-avatar
+  - jekyll-node-module
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------

@@ -12,6 +12,8 @@ image:
 **474명의 참가자 중 13위**
 {:.figcaption}
 
+{% include hits.md %}
+
 * this unordered seed list will be replaced by the toc
 {:toc}
 
